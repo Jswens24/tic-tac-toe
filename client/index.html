@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <main>
+        <div class="head-div">
+            <h1>Tic-Tac-Toe</h1>
+            <h4 class="turn">X Turn</h4>
+        </div>
+        <section class="game">
+            <div class="board">
+                <div class="square top-left">
+                    <div class="game-marker"></div>
+                </div>
+                <div class="square top-middle">
+                    <div class="game-marker"></div>
+                </div>
+                <div class="square top-right">
+                    <div class="game-marker"></div>
+                </div>
+                <div class="square middle-left">
+                    <div class="game-marker"></div>
+                </div>
+                <div class="square middle-middle">
+                    <div class="game-marker"></div>
+                </div>
+                <div class="square middle-right">
+                    <div class="game-marker"></div>
+                </div>
+                <div class="square bottom-left">
+                    <div class="game-marker"></div>
+                </div>
+                <div class="square bottom-middle">
+                    <div class="game-marker"></div>
+                </div>
+                <div class="square bottom-right">
+                    <div class="game-marker"></div>
+                </div>
+            </div>
+        </section>
+        <section class="score-container">
+            <div class="x-score-box">
+                <h3>X Wins</h3>
+                <p class="x-score">0</p>
+            </div>
+            <div class="o-score-box">
+                <h3>O Wins</h3>
+                <p class="o-score">0</p>
+            </div>
+        </section>
+        <div>
+            <button class="restart-btn">Restart</button>
+        </div>
+
+    </main>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
